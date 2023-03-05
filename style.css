@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(253, 195, 253);
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    background:rgb(244, 231, 231);
+}
+
+aside{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    height: auto;
+    background:rgb(231, 176, 176);
+}
+
+aside div{
+    height:200px;
+    background:blue;
+    border: 1px solid white;
+}
+
+.stack-container{
+    background-color: rgb(200, 204, 200);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    height: 200px;
+}
+
+.stack-container div{
+    height: 200px;
+    background:red;
+    border: 1px solid white;
+}
